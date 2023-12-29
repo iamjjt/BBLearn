@@ -1,0 +1,16 @@
+﻿@page "/"
+
+@attribute [TabItemOption(Text = "首页", Icon = "fa-solid fa-home")]
+@code {
+    private string hello = "Hello";
+    private void ClikeMe()
+    {
+        hello = "Hello, World";
+    }
+}
+
+<PageTitle>Home</PageTitle>
+
+<h1>@hello</h1>
+
+<Button Text="点我" OnClick="ClikeMe"></Button>

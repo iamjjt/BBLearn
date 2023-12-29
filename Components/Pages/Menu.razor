@@ -1,0 +1,21 @@
+﻿@page "/menu"
+
+@attribute [TabItemOption(Text = "菜单管理", Icon = "fa-solid fa-menu")]
+
+
+<AdminTable TItem="MenuEntity" OnSaveAsync="OnSaveAsync" OnDeleteAsync="OnDeleteAsync" IsTree="true" TreeNodeConverter="TreeNodeConverter">
+    <TableColumns>
+        <TableColumn @bind-Field="@context.MenuName"></TableColumn>
+        <TableColumn @bind-Field="@context.Url"></TableColumn>
+        <TableColumn @bind-Field="@context.Icon"></TableColumn>
+        <TableColumn @bind-Field="@context.ParentId" Text="父菜单" Visible="false">
+            <EditTemplate Context="value">
+                <div class="col-12 col-sm-6 col-md-6">
+                    <SelectTree @bind-Value="value.ParentId" Items="MenuTreeData"  DisplayText="父菜单"></SelectTree>
+                </div>
+            </EditTemplate>
+        </TableColumn>
+    </TableColumns>
+</AdminTable>
+
+
