@@ -31,5 +31,9 @@ namespace BlazorLearWebApp.Components.Components
         [Parameter] public bool IsTree { get; set; }
         
         [Parameter] public Func<IEnumerable<TItem>,Task<IEnumerable<TableTreeNode<TItem>>>>? TreeNodeConverter { get; set; }
+        
+        [Parameter] public Func<TItem,bool>? ShowExtendEditButtonCallback { get; set; }
+        [Parameter] public Func<TItem,bool>? ShowExtendDeleteButtonCallback { get; set; }
+        [Parameter] public RenderFragment<TItem>? BeforeRowButtonTemplate { get; set; }
     }
 }

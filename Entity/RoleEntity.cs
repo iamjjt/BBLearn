@@ -10,4 +10,6 @@ public class RoleEntity: BaseEntity<RoleEntity,int>
     public string? RoleName { get; set; }
     [Navigate(nameof(UserEntity.RoleId))]
     public List<UserEntity> Users { get; set; }
+    [Navigate(ManyToMany = typeof(RoleMenuEntity))]
+    public List<MenuEntity>? Menus { get; set; }
 }

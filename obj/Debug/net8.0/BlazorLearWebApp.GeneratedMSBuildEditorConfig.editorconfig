@@ -26,6 +26,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb21wb25lbnRzXEFkbWluVGFibGUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/stusy/netcore/BlazorLearWebApp/Components/Components/EditMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb21wb25lbnRzXEVkaXRNZW51LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/stusy/netcore/BlazorLearWebApp/Components/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDb3VudGVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
@@ -40,6 +44,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [E:/stusy/netcore/BlazorLearWebApp/Components/Pages/Menu.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xNZW51LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/stusy/netcore/BlazorLearWebApp/Components/Pages/Role.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xSb2xlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/stusy/netcore/BlazorLearWebApp/Components/Pages/User.razor]

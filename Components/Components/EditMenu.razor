@@ -1,0 +1,43 @@
+﻿@using System.Diagnostics.CodeAnalysis
+@RoleId
+@EditRole.RoleName
+<TreeView TItem="MenuEntity" Items="MenuTreeData" ShowIcon="true" ShowCheckbox="true" AutoCheckParent="true" AutoCheckChildren="true"></TreeView>
+
+@code {
+   
+    public List<TreeViewItem<MenuEntity>> MenuTreeData { get; set; } = [];
+    
+    [Parameter]public int RoleId { get; set; }
+    
+    [NotNull]private RoleEntity? EditRole { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        EditRole = await RoleEntity.Where(x => x.Id == RoleId).IncludeMany(x=>x.Menus).FirstAsync();
+        await base.OnInitializedAsync();
+        await  RefreshData();
+    }
+
+    private async Task RefreshData()
+    {
+        MenuTreeData.Clear();
+        var menus = await MenuEntity.Select.ToListAsync();
+        MenuTreeData.AddRange(CascadingMenu(menus, null));
+    }
+    private List<TreeViewItem<MenuEntity>> CascadingMenu(List<MenuEntity> menus, TreeViewItem<MenuEntity>? parent)
+    {
+        return menus.Where(x => x.ParentId == (parent?.Value.Id??0))
+            .Select(x =>
+            {
+                var item = new TreeViewItem<MenuEntity>(x)
+                {
+                    Text = x.MenuName,
+                    IsExpand = true,
+                    Icon = x.Icon,
+                    Parent = parent
+                };
+                item.Items = CascadingMenu(menus, item);
+                return item;
+            }).ToList();
+    }
+}
