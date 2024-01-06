@@ -1,6 +1,16 @@
 ﻿@using System.Diagnostics.CodeAnalysis
-@RoleId
-@EditRole.RoleName
+@implements IResultDialog
+
+@if (EditRole != null)
+{
+    @EditRole.RoleName
+}
+else
+{
+    <span>未选择角色</span>
+}
+
+
 <TreeView TItem="MenuEntity" Items="MenuTreeData" ShowIcon="true" ShowCheckbox="true" AutoCheckParent="true" AutoCheckChildren="true"></TreeView>
 
 @code {
@@ -9,7 +19,7 @@
     
     [Parameter]public int RoleId { get; set; }
     
-    [NotNull]private RoleEntity? EditRole { get; set; }
+    private RoleEntity? EditRole { get; set; }
 
     protected override async Task OnInitializedAsync()
     {
@@ -37,7 +47,36 @@
                     Parent = parent
                 };
                 item.Items = CascadingMenu(menus, item);
+                if (EditRole.Menus.Any(y => y.Id == x.Id) == true)
+                {
+                    item.CheckedState = CheckboxState.Checked;
+                }
                 return item;
             }).ToList();
     }
+
+    public async Task OnClose(DialogResult result)
+    {
+        if (result == DialogResult.Yes)
+        {
+            var menus = new List<MenuEntity>();
+            GetMenus(MenuTreeData.Where(x=>x.CheckedState!= CheckboxState.UnChecked), menus);
+            EditRole.Menus = menus;
+            await EditRole.SaveManyAsync(nameof(RoleEntity.Menus));
+        }
+        
+    }
+
+    private void GetMenus(IEnumerable<TreeViewItem<MenuEntity>> treeViewItems, List<MenuEntity> menus)
+    {
+        menus.AddRange(treeViewItems.Select(x=>x.Value));
+        foreach (var item in treeViewItems)
+        {
+            if (item.Items.Any(x => x.CheckedState != CheckboxState.UnChecked))
+            {
+                GetMenus(item.Items.Where(x=>x.CheckedState!=CheckboxState.UnChecked),menus);
+            }
+        }
+    }
+
 }

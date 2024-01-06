@@ -2,11 +2,13 @@ using BlazorLearWebApp.Components;
 using BlazorLearWebApp.Service;
 using BootstrapBlazor.Components;
 using FreeSql;
+using Console = System.Console;
 
 var builder = WebApplication.CreateBuilder(args);
-// 安装freesql
-IFreeSql fsql = new FreeSql.FreeSqlBuilder()
+// 安装freeSql
+var fsql = new FreeSql.FreeSqlBuilder()
     .UseConnectionString(FreeSql.DataType.Sqlite, @"Data Source=document.db")
+    .UseMonitorCommand(cmd=>Console.WriteLine($"Sql:{cmd.CommandText}"))
     .UseAutoSyncStructure(true) //automatically synchronize the entity structure to the database
     .Build();
 // 设置baseEntity模式
@@ -17,7 +19,7 @@ BaseEntity.Initialization(fsql, null);
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 builder.Services.AddBootstrapBlazor();
-builder.Services.AddScoped(typeof(IDataService<>), typeof(FreesqlDataService<>));
+builder.Services.AddScoped(typeof(IDataService<>), typeof(FreeSqlDataService<>));
 
 var app = builder.Build();
 

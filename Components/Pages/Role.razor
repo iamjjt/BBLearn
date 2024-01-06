@@ -19,13 +19,13 @@
 
     private void EditMenu(int roleId)
     {
-        DialogService.Show(new DialogOption()
+        DialogService.ShowModal<EditMenu>(new ResultDialogOption()
         {
             Title = "编辑菜单",
-            Component = BootstrapDynamicComponent.CreateComponent<EditMenu>(new Dictionary<string, object?>()
+            ComponentParameters = new Dictionary<string, object>()
             {
                 [nameof(Components.EditMenu.RoleId)]=roleId
-            })
+            }
         });
     }
 

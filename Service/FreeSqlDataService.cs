@@ -4,7 +4,7 @@ using FreeSql;
 
 namespace BlazorLearWebApp.Service;
 
-public class FreesqlDataService<TModel>: DataServiceBase<TModel> where TModel : class, new()
+public class FreeSqlDataService<TModel>: DataServiceBase<TModel> where TModel : class, new()
 {
     private readonly  IFreeSql _db= BaseEntity.Orm;
     
@@ -40,20 +40,30 @@ public class FreesqlDataService<TModel>: DataServiceBase<TModel> where TModel : 
     /// <returns></returns>
     public override Task<QueryData<TModel>> QueryAsync(QueryPageOptions option)
     {
-        var Items = _db.Select<TModel>().WhereDynamicFilter(option.ToDynamicFilter())
-            .OrderByPropertyNameIf(option.SortOrder != SortOrder.Unset, option.SortName, option.SortOrder == SortOrder.Asc)
-            .Count(out var count)
-            .Page(option.PageIndex, option.PageItems).ToList();
+        var selected = _db.Select<TModel>()
+            .WhereDynamicFilter(option.ToDynamicFilter())
+            .OrderByPropertyNameIf(option.SortOrder != SortOrder.Unset, option.SortName,
+                option.SortOrder == SortOrder.Asc)
+            .Count(out var count);
+
+        if (option.IsPage)
+        {
+            selected = selected.Page(option.PageIndex, option.PageItems);
+        }
+        var items = selected.ToList();
 
         var ret = new QueryData<TModel>()
         {
             TotalCount = (int)count,
-            Items = Items,
+            Items = items,
             IsSorted = option.SortOrder != SortOrder.Unset,
-            IsFiltered = option.Filters.Any(),
-            IsAdvanceSearch = option.AdvanceSearches.Any(),
-            IsSearch = option.Searches.Any() || option.CustomerSearches.Any()
+            IsFiltered = option.Filters.Count != 0,
+            IsAdvanceSearch = option.AdvanceSearches.Count != 0,
+            IsSearch = option.Searches.Count != 0 || option.CustomerSearches.Count != 0
         };
+        
         return Task.FromResult(ret);
     }
+    
+    
 }
