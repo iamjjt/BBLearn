@@ -7,11 +7,21 @@
     <TableColumns>
         <TableColumn @bind-Field="@context.UserName" IsReadonlyWhenEdit="true"></TableColumn>
         <TableColumn @bind-Field="@context.NickName"></TableColumn>
-        <TableColumn @bind-Field="@context.Role" Text="角色"></TableColumn>
+        <TableColumn @bind-Field="@context.RoleId" Text="角色" Lookup="Roles"></TableColumn>
     </TableColumns>
+    <RowButtonTemplate Context="value">
+        <TableCellPopconfirmButton Text="重置密码" Content=@($"您确定要重置${value.UserName}的密码吗?") OnConfirm="()=>ResetPassword(value)"></TableCellPopconfirmButton>    
+    </RowButtonTemplate>
 </AdminTable>
 
 @code {
+    private List<SelectedItem>? Roles { get; set; }
+    
+    protected override async Task OnInitializedAsync()
+    {
+        await base.OnInitializedAsync();
+        Roles = RoleEntity.Select.ToList(x => new SelectedItem(x.Id.ToString(), x.RoleName!));
+    }
 
     private async Task<bool> OnSaveAsync(UserEntity arg1, ItemChangedType arg2)
     {
@@ -31,6 +41,18 @@
             });
         }
         return ret;
+    }
+
+    private async Task ResetPassword(UserEntity user)
+    {
+        user.Password = "123456";
+        await user.SaveAsync();
+        await SwalService.Show(new SwalOption()
+        {
+            Title = "密码重置成功",
+            Content = $"用户密码重置已经重置为初始密码123456",
+            Category = SwalCategory.Success,
+        });
     }
 
 }

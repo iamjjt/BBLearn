@@ -18,5 +18,6 @@ namespace BlazorLearWebApp.Components.Components
         [Parameter] public Func<TItem,bool>? ShowExtendEditButtonCallback { get; set; }
         [Parameter] public Func<TItem,bool>? ShowExtendDeleteButtonCallback { get; set; }
         [Parameter] public RenderFragment<TItem>? BeforeRowButtonTemplate { get; set; }
+        [Parameter] public RenderFragment<TItem>? RowButtonTemplate { get; set; }
     }
 }
