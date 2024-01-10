@@ -30,8 +30,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb21wb25lbnRzXEVkaXRNZW51LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/stusy/netcore/BlazorLearWebApp/Components/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDb3VudGVyLnJhem9y
+[E:/stusy/netcore/BlazorLearWebApp/Components/Components/Widget.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb21wb25lbnRzXFdpZGdldC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/stusy/netcore/BlazorLearWebApp/Components/Layout/LoginLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTG9naW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/stusy/netcore/BlazorLearWebApp/Components/Pages/Error.razor]
@@ -73,3 +77,7 @@ build_metadata.AdditionalFiles.CssScope = b-44hfe7bn58
 [E:/stusy/netcore/BlazorLearWebApp/Components/Layout/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTmF2TWVudS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-cs547qjyeq
+
+[E:/stusy/netcore/BlazorLearWebApp/Components/Pages/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xMb2dpbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-txcbbaqfo5

@@ -21,6 +21,226 @@
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {
+      "Id": "E:\\stusy\\netcore\\BlazorLearWebApp\\wwwroot\\images\\404.jpg",
+      "PackagePath": "staticwebassets\\images\\404.jpg"
+    },
+    {
+      "Id": "E:\\stusy\\netcore\\BlazorLearWebApp\\wwwroot\\images\\404.png",
+      "PackagePath": "staticwebassets\\images\\404.png"
+    },
+    {
+      "Id": "E:\\stusy\\netcore\\BlazorLearWebApp\\wwwroot\\images\\404_icon.png",
+      "PackagePath": "staticwebassets\\images\\404_icon.png"
+    },
+    {
+      "Id": "E:\\stusy\\netcore\\BlazorLearWebApp\\wwwroot\\images\\500.png",
+      "PackagePath": "staticwebassets\\images\\500.png"
+    },
+    {
+      "Id": "E:\\stusy\\netcore\\BlazorLearWebApp\\wwwroot\\images\\Argo-C.png",
+      "PackagePath": "staticwebassets\\images\\Argo-C.png"
+    },
+    {
+      "Id": "E:\\stusy\\netcore\\BlazorLearWebApp\\wwwroot\\images\\Argo.png",
+      "PackagePath": "staticwebassets\\images\\Argo.png"
+    },
+    {
+      "Id": "E:\\stusy\\netcore\\BlazorLearWebApp\\wwwroot\\images\\aliyun-default.svg",
+      "PackagePath": "staticwebassets\\images\\aliyun-default.svg"
+    },
+    {
+      "Id": "E:\\stusy\\netcore\\BlazorLearWebApp\\wwwroot\\images\\banner4.jpg",
+      "PackagePath": "staticwebassets\\images\\banner4.jpg"
+    },
+    {
+      "Id": "E:\\stusy\\netcore\\BlazorLearWebApp\\wwwroot\\images\\bg.jpg",
+      "PackagePath": "staticwebassets\\images\\bg.jpg"
+    },
+    {
+      "Id": "E:\\stusy\\netcore\\BlazorLearWebApp\\wwwroot\\images\\bg.png",
+      "PackagePath": "staticwebassets\\images\\bg.png"
+    },
+    {
+      "Id": "E:\\stusy\\netcore\\BlazorLearWebApp\\wwwroot\\images\\bg2.jpg",
+      "PackagePath": "staticwebassets\\images\\bg2.jpg"
+    },
+    {
+      "Id": "E:\\stusy\\netcore\\BlazorLearWebApp\\wwwroot\\images\\bg3.png",
+      "PackagePath": "staticwebassets\\images\\bg3.png"
+    },
+    {
+      "Id": "E:\\stusy\\netcore\\BlazorLearWebApp\\wwwroot\\images\\bg4.jpg",
+      "PackagePath": "staticwebassets\\images\\bg4.jpg"
+    },
+    {
+      "Id": "E:\\stusy\\netcore\\BlazorLearWebApp\\wwwroot\\images\\bg404.png",
+      "PackagePath": "staticwebassets\\images\\bg404.png"
+    },
+    {
+      "Id": "E:\\stusy\\netcore\\BlazorLearWebApp\\wwwroot\\images\\blazor.png",
+      "PackagePath": "staticwebassets\\images\\blazor.png"
+    },
+    {
+      "Id": "E:\\stusy\\netcore\\BlazorLearWebApp\\wwwroot\\images\\blazor.svg",
+      "PackagePath": "staticwebassets\\images\\blazor.svg"
+    },
+    {
+      "Id": "E:\\stusy\\netcore\\BlazorLearWebApp\\wwwroot\\images\\brand.png",
+      "PackagePath": "staticwebassets\\images\\brand.png"
+    },
+    {
+      "Id": "E:\\stusy\\netcore\\BlazorLearWebApp\\wwwroot\\images\\cover-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\cover-bg.jpg"
+    },
+    {
+      "Id": "E:\\stusy\\netcore\\BlazorLearWebApp\\wwwroot\\images\\dingding.svg",
+      "PackagePath": "staticwebassets\\images\\dingding.svg"
+    },
+    {
+      "Id": "E:\\stusy\\netcore\\BlazorLearWebApp\\wwwroot\\images\\downloadwindows_icon.svg",
+      "PackagePath": "staticwebassets\\images\\downloadwindows_icon.svg"
+    },
+    {
+      "Id": "E:\\stusy\\netcore\\BlazorLearWebApp\\wwwroot\\images\\empty.svg",
+      "PackagePath": "staticwebassets\\images\\empty.svg"
+    },
+    {
+      "Id": "E:\\stusy\\netcore\\BlazorLearWebApp\\wwwroot\\images\\enterprise.png",
+      "PackagePath": "staticwebassets\\images\\enterprise.png"
+    },
+    {
+      "Id": "E:\\stusy\\netcore\\BlazorLearWebApp\\wwwroot\\images\\error.png",
+      "PackagePath": "staticwebassets\\images\\error.png"
+    },
+    {
+      "Id": "E:\\stusy\\netcore\\BlazorLearWebApp\\wwwroot\\images\\error_icon.png",
+      "PackagePath": "staticwebassets\\images\\error_icon.png"
+    },
+    {
+      "Id": "E:\\stusy\\netcore\\BlazorLearWebApp\\wwwroot\\images\\git.svg",
+      "PackagePath": "staticwebassets\\images\\git.svg"
+    },
+    {
+      "Id": "E:\\stusy\\netcore\\BlazorLearWebApp\\wwwroot\\images\\gitee.svg",
+      "PackagePath": "staticwebassets\\images\\gitee.svg"
+    },
+    {
+      "Id": "E:\\stusy\\netcore\\BlazorLearWebApp\\wwwroot\\images\\left-1.png",
+      "PackagePath": "staticwebassets\\images\\left-1.png"
+    },
+    {
+      "Id": "E:\\stusy\\netcore\\BlazorLearWebApp\\wwwroot\\images\\left-2.png",
+      "PackagePath": "staticwebassets\\images\\left-2.png"
+    },
+    {
+      "Id": "E:\\stusy\\netcore\\BlazorLearWebApp\\wwwroot\\images\\left.png",
+      "PackagePath": "staticwebassets\\images\\left.png"
+    },
+    {
+      "Id": "E:\\stusy\\netcore\\BlazorLearWebApp\\wwwroot\\images\\loading-sm.gif",
+      "PackagePath": "staticwebassets\\images\\loading-sm.gif"
+    },
+    {
+      "Id": "E:\\stusy\\netcore\\BlazorLearWebApp\\wwwroot\\images\\lock-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\lock-bg.jpg"
+    },
+    {
+      "Id": "E:\\stusy\\netcore\\BlazorLearWebApp\\wwwroot\\images\\login-background.jpg",
+      "PackagePath": "staticwebassets\\images\\login-background.jpg"
+    },
+    {
+      "Id": "E:\\stusy\\netcore\\BlazorLearWebApp\\wwwroot\\images\\logo.jpg",
+      "PackagePath": "staticwebassets\\images\\logo.jpg"
+    },
+    {
+      "Id": "E:\\stusy\\netcore\\BlazorLearWebApp\\wwwroot\\images\\logo1.jpg",
+      "PackagePath": "staticwebassets\\images\\logo1.jpg"
+    },
+    {
+      "Id": "E:\\stusy\\netcore\\BlazorLearWebApp\\wwwroot\\images\\logo2.jpg",
+      "PackagePath": "staticwebassets\\images\\logo2.jpg"
+    },
+    {
+      "Id": "E:\\stusy\\netcore\\BlazorLearWebApp\\wwwroot\\images\\logo3.jpg",
+      "PackagePath": "staticwebassets\\images\\logo3.jpg"
+    },
+    {
+      "Id": "E:\\stusy\\netcore\\BlazorLearWebApp\\wwwroot\\images\\logo4.jpg",
+      "PackagePath": "staticwebassets\\images\\logo4.jpg"
+    },
+    {
+      "Id": "E:\\stusy\\netcore\\BlazorLearWebApp\\wwwroot\\images\\logo5.jpg",
+      "PackagePath": "staticwebassets\\images\\logo5.jpg"
+    },
+    {
+      "Id": "E:\\stusy\\netcore\\BlazorLearWebApp\\wwwroot\\images\\logo6.jpg",
+      "PackagePath": "staticwebassets\\images\\logo6.jpg"
+    },
+    {
+      "Id": "E:\\stusy\\netcore\\BlazorLearWebApp\\wwwroot\\images\\logo7.png",
+      "PackagePath": "staticwebassets\\images\\logo7.png"
+    },
+    {
+      "Id": "E:\\stusy\\netcore\\BlazorLearWebApp\\wwwroot\\images\\nav-expand.png",
+      "PackagePath": "staticwebassets\\images\\nav-expand.png"
+    },
+    {
+      "Id": "E:\\stusy\\netcore\\BlazorLearWebApp\\wwwroot\\images\\netcore.png",
+      "PackagePath": "staticwebassets\\images\\netcore.png"
+    },
+    {
+      "Id": "E:\\stusy\\netcore\\BlazorLearWebApp\\wwwroot\\images\\netcore2.png",
+      "PackagePath": "staticwebassets\\images\\netcore2.png"
+    },
+    {
+      "Id": "E:\\stusy\\netcore\\BlazorLearWebApp\\wwwroot\\images\\qq-2.svg",
+      "PackagePath": "staticwebassets\\images\\qq-2.svg"
+    },
+    {
+      "Id": "E:\\stusy\\netcore\\BlazorLearWebApp\\wwwroot\\images\\qq-3.svg",
+      "PackagePath": "staticwebassets\\images\\qq-3.svg"
+    },
+    {
+      "Id": "E:\\stusy\\netcore\\BlazorLearWebApp\\wwwroot\\images\\qq.svg",
+      "PackagePath": "staticwebassets\\images\\qq.svg"
+    },
+    {
+      "Id": "E:\\stusy\\netcore\\BlazorLearWebApp\\wwwroot\\images\\success.png",
+      "PackagePath": "staticwebassets\\images\\success.png"
+    },
+    {
+      "Id": "E:\\stusy\\netcore\\BlazorLearWebApp\\wwwroot\\images\\uploader\\Admin.jpg",
+      "PackagePath": "staticwebassets\\images\\uploader\\Admin.jpg"
+    },
+    {
+      "Id": "E:\\stusy\\netcore\\BlazorLearWebApp\\wwwroot\\images\\uploader\\default.jpg",
+      "PackagePath": "staticwebassets\\images\\uploader\\default.jpg"
+    },
+    {
+      "Id": "E:\\stusy\\netcore\\BlazorLearWebApp\\wwwroot\\images\\weibo.svg",
+      "PackagePath": "staticwebassets\\images\\weibo.svg"
+    },
+    {
+      "Id": "E:\\stusy\\netcore\\BlazorLearWebApp\\wwwroot\\images\\weixin-2.svg",
+      "PackagePath": "staticwebassets\\images\\weixin-2.svg"
+    },
+    {
+      "Id": "E:\\stusy\\netcore\\BlazorLearWebApp\\wwwroot\\images\\weixin.svg",
+      "PackagePath": "staticwebassets\\images\\weixin.svg"
+    },
+    {
+      "Id": "E:\\stusy\\netcore\\BlazorLearWebApp\\wwwroot\\images\\zhifubao-2.svg",
+      "PackagePath": "staticwebassets\\images\\zhifubao-2.svg"
+    },
+    {
+      "Id": "E:\\stusy\\netcore\\BlazorLearWebApp\\wwwroot\\images\\zhifubao-3.svg",
+      "PackagePath": "staticwebassets\\images\\zhifubao-3.svg"
+    },
+    {
+      "Id": "E:\\stusy\\netcore\\BlazorLearWebApp\\wwwroot\\images\\zhifubao.svg",
+      "PackagePath": "staticwebassets\\images\\zhifubao.svg"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BlazorLearWebApp.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

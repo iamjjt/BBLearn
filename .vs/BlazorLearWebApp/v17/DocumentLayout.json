@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "E:\\stusy\\netcore\\BlazorLearWebApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D596EBBE-AFD6-4BB2-A49F-535EBB1005A3}|BlazorLearWebApp.csproj|e:\\stusy\\netcore\\blazorlearwebapp\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D596EBBE-AFD6-4BB2-A49F-535EBB1005A3}|BlazorLearWebApp.csproj|solutionrelative:components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D596EBBE-AFD6-4BB2-A49F-535EBB1005A3}|BlazorLearWebApp.csproj|e:\\stusy\\netcore\\blazorlearwebapp\\components\\pages\\login.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D596EBBE-AFD6-4BB2-A49F-535EBB1005A3}|BlazorLearWebApp.csproj|solutionrelative:components\\pages\\login.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D596EBBE-AFD6-4BB2-A49F-535EBB1005A3}|BlazorLearWebApp.csproj|e:\\stusy\\netcore\\blazorlearwebapp\\components\\pages\\menu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D596EBBE-AFD6-4BB2-A49F-535EBB1005A3}|BlazorLearWebApp.csproj|solutionrelative:components\\pages\\menu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -35,6 +43,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Login.razor.cs",
+              "DocumentMoniker": "E:\\stusy\\netcore\\BlazorLearWebApp\\Components\\Pages\\Login.razor.cs",
+              "RelativeDocumentMoniker": "Components\\Pages\\Login.razor.cs",
+              "ToolTip": "E:\\stusy\\netcore\\BlazorLearWebApp\\Components\\Pages\\Login.razor.cs",
+              "RelativeToolTip": "Components\\Pages\\Login.razor.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAA1wDEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-08T06:03:58.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.razor",
+              "DocumentMoniker": "E:\\stusy\\netcore\\BlazorLearWebApp\\Components\\Pages\\Login.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Login.razor",
+              "ToolTip": "E:\\stusy\\netcore\\BlazorLearWebApp\\Components\\Pages\\Login.razor",
+              "RelativeToolTip": "Components\\Pages\\Login.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-01-08T06:03:51.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Menu.razor.cs",
               "DocumentMoniker": "E:\\stusy\\netcore\\BlazorLearWebApp\\Components\\Pages\\Menu.razor.cs",
               "RelativeDocumentMoniker": "Components\\Pages\\Menu.razor.cs",
@@ -42,12 +76,11 @@
               "RelativeToolTip": "Components\\Pages\\Menu.razor.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-27T13:53:22.221Z",
-              "EditorCaption": ""
+              "WhenOpened": "2023-12-27T13:53:22.221Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Menu.razor",
               "DocumentMoniker": "E:\\stusy\\netcore\\BlazorLearWebApp\\Components\\Pages\\Menu.razor",
               "RelativeDocumentMoniker": "Components\\Pages\\Menu.razor",
@@ -60,7 +93,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "App.razor",
               "DocumentMoniker": "E:\\stusy\\netcore\\BlazorLearWebApp\\Components\\App.razor",
               "RelativeDocumentMoniker": "Components\\App.razor",

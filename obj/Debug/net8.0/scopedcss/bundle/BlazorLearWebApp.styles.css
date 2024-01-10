@@ -415,3 +415,168 @@
         overflow-y: auto;
     }
 }
+/* _content/BlazorLearWebApp/Components/Pages/Login.razor.rz.scp.css */
+.wrap[b-txcbbaqfo5] {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+@media (min-width: 768px) {
+    .wrap[b-txcbbaqfo5] {
+        background-color: #5bc0de;
+        background: url('images/bg2.jpg') fixed no-repeat;
+        background-size: 100% 100%;
+    }
+
+    .container[b-txcbbaqfo5] {
+        background: url('images/bg3.png') no-repeat;
+        background-size: contain;
+        width: 704px;
+        height: 404px;
+        margin: 0 auto;
+        margin-top: calc(100vh / 2 - 190px);
+    }
+}
+
+.form-signin-heading[b-txcbbaqfo5] {
+    margin: 0;
+    padding: 20px 15px;
+    text-align: center;
+    background-color: #41cac0;
+    border-radius: 5px 5px 0 0;
+    color: #fff;
+}
+
+.login-wrap[b-txcbbaqfo5] {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+.login-wrap .card[b-txcbbaqfo5], .login-wrap .card:hover[b-txcbbaqfo5], .modal .card[b-txcbbaqfo5], .modal .card:hover[b-txcbbaqfo5] {
+    border: 1px solid #84bbe2;
+}
+
+.login-sms[b-txcbbaqfo5],
+.is-mobile .login-up[b-txcbbaqfo5] {
+    display: none;
+}
+
+.is-mobile .login-sms[b-txcbbaqfo5] {
+    display: block;
+}
+
+[b-txcbbaqfo5] .btn-login {
+    background: #f67a6e;
+    border-color: transparent;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+    box-shadow: 0 4px #e56b60;
+    line-height: 1;
+}
+
+[b-txcbbaqfo5] .btn-login:focus {
+    box-shadow: 0 4px #e56b60;
+}
+
+[b-txcbbaqfo5] .input-group-text {
+    background-color: #6bc3f4;
+    border-color: #1ca0e9;
+}
+
+[b-txcbbaqfo5] .form-check-label {
+    color: #212529;
+}
+
+[b-txcbbaqfo5] .form-control {
+    border-color: #1ca0e9 !important;
+}
+
+[b-txcbbaqfo5] .divider-wrap {
+    background-color: #7c86bb;
+}
+
+[b-txcbbaqfo5] .divider-text {
+    background-color: #a7daf9;
+}
+
+.login-list[b-txcbbaqfo5] {
+    display: flex;
+    justify-content: space-between;
+}
+
+.login-list[b-txcbbaqfo5]  img {
+    width: 32px;
+    height: 32px;
+}
+
+[b-txcbbaqfo5] .btn-sms {
+    width: 140px;
+}
+
+@media (max-width: 767px) {
+    .form-signin[b-txcbbaqfo5] {
+        margin: 0 auto;
+        background: #fff;
+        border-radius: 5px;
+        max-width: 320px;
+        border: solid 1px #ddd;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.125);
+    }
+}
+
+@media (min-width: 768px) {
+    .form-signin-heading[b-txcbbaqfo5] {
+        padding: 28px 0;
+        background-color: transparent;
+    }
+
+    .login-wrap[b-txcbbaqfo5] {
+        width: 300px;
+        height: 274px;
+        position: relative;
+        left: 346px;
+        justify-content: center;
+    }
+
+    .slidercaptcha[b-txcbbaqfo5] {
+        width: 300px;
+    }
+
+    .slidercaptcha[b-txcbbaqfo5], .slidercaptcha.oauth[b-txcbbaqfo5] {
+        height: 280px;
+    }
+
+    .slidercaptcha.card .card-body[b-txcbbaqfo5] {
+        padding: 15px 15px 0 15px;
+    }
+
+    .login-footer[b-txcbbaqfo5] {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .login-footer .login-footer-body li a[b-txcbbaqfo5] {
+        color: #e0e0e0;
+    }
+}
+
+@media (min-width: 768px) {
+    .gitee.wrap[b-txcbbaqfo5] {
+        background-color: #f1f2f7;
+        background-image: none;
+    }
+
+    .gitee .container[b-txcbbaqfo5] {
+        width: 704px;
+        height: 404px;
+        margin: 0 auto;
+        margin-top: calc(100vh / 2 - 190px);
+    }
+}

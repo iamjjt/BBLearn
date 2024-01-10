@@ -10,7 +10,7 @@
         <TableColumn @bind-Field="@context.RoleId" Text="角色" Lookup="Roles"></TableColumn>
     </TableColumns>
     <RowButtonTemplate Context="value">
-        <TableCellPopconfirmButton Text="重置密码" Content=@($"您确定要重置${value.UserName}的密码吗?") OnConfirm="()=>ResetPassword(value)"></TableCellPopconfirmButton>    
+        <TableCellPopconfirmButton Text="重置密码" Content=@($"您确定要重置 ({value.UserName}) 的密码吗?") OnConfirm="()=>ResetPassword(value)"></TableCellPopconfirmButton>    
     </RowButtonTemplate>
 </AdminTable>
 

@@ -12,3 +12,27 @@
 .darker-border-checkbox.form-check-input {
     border-color: #929292;
 }
+
+
+.layout {
+    --bb-primary-color: #6610f2;
+    --bb-layout-sidebar-banner-background: var(--bb-primary-color);
+    /*--bb-layout-title-color: #fff;*/
+    --bb-layout-header-background: var(--bb-primary-color);
+    /*--bb-layout-header-color: #fff;*/
+
+    --bb-layout-title-color: #fff;
+    --bb-layout-header-color: #fff;
+    --bs-border-color:#e4e6ef;
+    --bb-disabled-bg: #e4e6ef;
+    --bs-border-radius: .475rem;
+}
+
+.layout .widget {
+    --bb-widget-toggle-color: #fff;
+    margin-right: 1rem;
+}
+
+.layout .layout-avatar-right {
+    border-radius: 50%;
+}

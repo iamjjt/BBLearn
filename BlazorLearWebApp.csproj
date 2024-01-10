@@ -13,4 +13,10 @@
     <PackageReference Include="FreeSql.Provider.Sqlite" Version="3.2.808" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Content Update="Components\Pages\Login.razor.css">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+  </ItemGroup>
+
 </Project>
