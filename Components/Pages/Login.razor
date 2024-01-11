@@ -1,0 +1,21 @@
+﻿@page "/login"
+@using BlazorLearWebApp.Vo
+
+@layout LoginLayout
+
+<div class="login-item login-item-floating">
+    <div class="text-center">
+        <h4 class="text-dark"></h4>
+        <h4 class="text-dark">用户登录!</h4>
+    </div>
+    <ValidateForm Model="@LoginVo">
+        <FloatingLabel @bind-Value="@LoginVo.UserName" DisplayText="用户名" IsGroupBox="true" PlaceHolder="请输入用户名"/>
+        <FloatingLabel @bind-Value="@LoginVo.Password" DisplayText="密码" type="password" IsGroupBox="true" PlaceHolder="清输入密码"/>
+        <Checkbox TValue="bool" ShowLabel="false" ShowAfterLabel="true" DisplayText="记住登录状态"/>
+        <Button Text="登录" ButtonType="ButtonType.Submit" Color="Color.Primary"></Button>
+    </ValidateForm>
+</div>
+
+@code {
+    private LoginVo LoginVo { get; set; } = new LoginVo();
+}
